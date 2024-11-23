@@ -1,5 +1,5 @@
 {
-    "name": "template-python",
+    "name": "template-python3",
     "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye"
     //"dockerComposeFile": ["docker-compose.yml"],
     //"service": "app",

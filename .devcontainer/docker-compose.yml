@@ -1,0 +1,16 @@
+name: "template-python-compose-stack"
+
+services:
+
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+      target: develop
+    command: tail -f /dev/null
+    networks:
+      - custom_network
+
+networks:
+  custom_network:
+    driver: bridge
